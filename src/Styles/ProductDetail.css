@@ -1,0 +1,18 @@
+.modal-price-brand-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1.2em;
+    right: 1em;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: transform 300ms;
+}
+
+.close-modal:hover {
+    transform: rotate(180deg);
+}
